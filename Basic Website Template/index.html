@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Futuristic Website</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="content.html">Content</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </nav>
+    <div class="btn-group">
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">Sign up</button>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <h2>Main Page</h2>
+      <p>Welcome to the future! This is the main page of our futuristic website.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Futuristic Website. All rights reserved.
+  </footer>
+
+   <!-- Login/Sign-up modal -->
+   <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login/Sign up</h2>
+      <div id="loginForm">
+        <input type="text" placeholder="Username or Email">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+        <div class="social-login">
+          <p>Or login with:</p>
+          <button class="google-btn">Google</button>
+          <button class="facebook-btn">Facebook</button>
+        </div>
+      </div>
+      <div id="signupForm">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button>Sign up</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

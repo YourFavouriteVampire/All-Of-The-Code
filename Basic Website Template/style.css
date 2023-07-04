@@ -1,0 +1,203 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header .btn-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  header .btn-group button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header .btn-group button:hover {
+    background-color: #555;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  main div {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:hover {
+    background-color: #333;
+  }
+  
+  .modal .social-login {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .modal .social-login p {
+    margin-bottom: 10px;
+  }
+  
+  .modal .social-login button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal .social-login button:first-child {
+    margin-right: 10px;
+  }
+  
+  .modal .social-login button:hover {
+    background-color: #4c69ba;
+  }
+  /* ...Existing styles... */
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #333;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #555;
+  }
+  
+  /* ...Existing styles... */
+  
