@@ -1,0 +1,11 @@
+Hello , this is my very own media player.
+
+When in Fullscreen mode:
+Forward arrow key  : 10 seconds formwars skip
+Backward arrow key : 10 seconds backward skip
+Upwards arrow key  : Volume increase
+Downwards arrow key: Volume decrease
+
+Esc key  :   to exit full screem
+M key    : To mute aduio
+Spacebar : to toggle between pause and resume
